@@ -1,4 +1,5 @@
 import { Typography, Button, Input } from "@material-tailwind/react";
+import Link from "next/link";
 
 const LINKS = [
   {
@@ -32,7 +33,7 @@ export function Footer() {
                   <li key={link}>
                     <Typography
                       as="a"
-                      href="#"
+                      href="#!"
                       className="py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900"
                     >
                       {link}
@@ -60,7 +61,7 @@ export function Footer() {
                 <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left">
                   I agree the{" "}
                   <a
-                    href="#"
+                    href="#!"
                     className="font-bold underline hover:text-gray-900 transition-colors"
                   >
                     Terms and Conditions{" "}
@@ -78,14 +79,17 @@ export function Footer() {
           className="md:text-center mt-16 font-normal !text-gray-700"
         >
           &copy; {CURRENT_YEAR} Made with{" "}
-          <a href="https://www.material-tailwind.com" target="_blank">
+          <Link onClick={(e) => e.preventDefault()} href="#!" target="_blank">
             Material Tailwind
-          </a>{" "}
+          </Link>{" "}
           by{" "}
           <a href="https://www.creative-tim.com" target="_blank">
             Creative Tim
+          </a> {" "}
+           | Distributed By {" "}
+           <a href="https://themewagon.com/" target="_blank">
+            ThemeWagon
           </a>
-          .
         </Typography>
       </div>
     </footer>

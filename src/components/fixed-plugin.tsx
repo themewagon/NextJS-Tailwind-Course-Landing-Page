@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 
 export function FixedPlugin() {
   return (
-    <a href="https://www.material-tailwind.com" target="_blank">
+    <a href="https://www.material-tailwind.com" target="_blank" className="hidden">
       <Button
         color="white"
         size="sm"
@@ -15,7 +15,7 @@ export function FixedPlugin() {
           height={128}
           className="w-5 h-5"
           alt="Material Tailwind"
-          src="https://www.material-tailwind.com/favicon.png"
+          src=""
         />{" "}
         Made With Material Tailwind
       </Button>

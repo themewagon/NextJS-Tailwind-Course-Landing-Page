@@ -1,12 +1,13 @@
-/** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: isProd ? '/NextJS-Tailwind-Course-Landing-Page/' : '',
+    assetPrefix: isProd ? '/NextJS-Tailwind-Course-Landing-Page/' : '',
     basePath: isProd ? '/NextJS-Tailwind-Course-Landing-Page' : '',
-    output: 'export',
     images: {
-      unoptimized: true, // Disable default image optimization
+        unoptimized: true,
     },
+    output: 'export',
 };
 
 module.exports = nextConfig;

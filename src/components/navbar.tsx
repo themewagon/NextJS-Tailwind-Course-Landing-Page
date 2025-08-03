@@ -14,6 +14,7 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const NAV_MENU = [
   {
@@ -89,12 +90,11 @@ export function Navbar() {
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
               <Button variant="text">Log in</Button>
-              <a
-                href="https://www.material-tailwind.com/blocks"
+              <Link onClick={(e) => e.preventDefault()} href="#!"
                 target="_blank"
               >
                 <Button color="gray">Blocks</Button>
-              </a>
+              </Link>
             </div>
             <IconButton
               variant="text"
