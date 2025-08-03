@@ -14,7 +14,7 @@ function TESTIMONIAL() {
               <Image
                 width={768}
                 height={768}
-                src="NextJS-Tailwind-Course-Landing-Page/image/blogs/blog6.svg"
+                src="/NextJS-Tailwind-Course-Landing-Page/image/blogs/blog6.svg"
                 alt="testimonial image"
                 className="w-full h-full scale-110 object-cover"
               />
@@ -51,7 +51,7 @@ function TESTIMONIAL() {
               <div className="flex items-center mt-8 gap-4">
                 <Avatar
                   variant="circular"
-                  src="NextJS-Tailwind-Course-Landing-Page/image/avatar3.jpg"
+                  src="/NextJS-Tailwind-Course-Landing-Page/image/avatar3.jpg"
                   alt="spotify"
                   size="md"
                 />

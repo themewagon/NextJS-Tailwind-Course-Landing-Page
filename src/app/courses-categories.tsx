@@ -20,25 +20,25 @@ import CategoryCard from "@/components/category-card";
 
 const CATEGORIES = [
   {
-    img: "NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-3.png",
+    img: "/NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-3.png",
     icon: HeartIcon,
     title: "Frontend Web Development",
     desc: "300 Courses",
   },
   {
-    img: "NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-12.jpeg",
+    img: "/NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-12.jpeg",
     icon: PuzzlePieceIcon,
     title: "Backend Web Development",
     desc: "200 Courses",
   },
   {
-    img: "NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-10.jpeg",
+    img: "/NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-10.jpeg",
     icon: GlobeEuropeAfricaIcon,
     title: "Web Security & Performance",
     desc: "240 Courses",
   },
   {
-    img: "NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-13.png",
+    img: "/NextJS-Tailwind-Course-Landing-Page/image/blogs/blog-13.png",
     icon: MicrophoneIcon,
     title: "Full-Stack Web Development",
     desc: "100 Courses",
