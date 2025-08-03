@@ -31,7 +31,7 @@ function TrustedCompany() {
               width={768}
               height={768}
               key={key}
-              src={`/logos/logo-${logo}.svg`}
+              src={`NextJS-Tailwind-Course-Landing-Page/logos/logo-${logo}.svg`}
               alt={logo}
               className="w-40 grayscale opacity-75"
             />
