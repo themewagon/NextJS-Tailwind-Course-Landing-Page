@@ -4,7 +4,7 @@
  - [Demo](https://themewagon.github.io/NextJS-Tailwind-Course-Landing-Page/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/)
+ - [Download from ThemeWagon](https://themewagon.com/themes/material-tailwind/)
 
 ## Getting Started
 
